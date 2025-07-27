@@ -28,10 +28,10 @@ class PersonalInfo extends StatelessWidget
       (
         title: Text
         (
-          'Tisha Sarker',
-          style: TextStyle(color: Colors.white),
+          'Nipa Sarkar',
+          style: TextStyle(color: Colors.black),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.blueAccent,
         centerTitle: true,
       ),
       
@@ -39,18 +39,18 @@ class PersonalInfo extends StatelessWidget
       (
         child: Container
         (
-          width: 300,
-          height: 150,
+          width: 250,
+          height: 100,
           decoration: BoxDecoration
           (
-            color: Colors.yellow,
+            color: Colors.purpleAccent,
             borderRadius: BorderRadius.circular(15),
           ),
               
           child: Center
           (
             child: Text
-            ("Name: Tisha Sarker\nCity: Sylhet\nFavorite Color: Blue"),
+            ("Name: Nipa Sarkar\nCity: Sylhet\nFavorite Color: Yellow"),
             
           ),
         ),

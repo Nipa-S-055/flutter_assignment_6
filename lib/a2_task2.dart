@@ -33,22 +33,22 @@ class poem extends StatelessWidget
       (
       child: Container
         (
-          width: 300,
-          height: 120,
+          width: 350,
+          height: 180,
           decoration: BoxDecoration
           (
-            color: Colors.lightBlue,
-            borderRadius: BorderRadius.circular(16),
+            color: Colors.black,
+            borderRadius: BorderRadius.circular(15),
           ),
             child: Center(
           child:Text
           (
-            '"The scent of a flower\n from childhood lanes can bring back\n a whole world lost in time."',
+            '"Silent thoughts flow like a stream,\nWandering deep in a quiet dream.\nOld memories softly appear,\nWhispering truths we hold dear."',
               style: TextStyle
               (
-                fontSize: 18,
-                fontStyle: FontStyle.normal,
-                color: Colors.black,
+                fontSize: 20,
+                fontStyle: FontStyle.italic,
+                color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
             textAlign: TextAlign.center,
